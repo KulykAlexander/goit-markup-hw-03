@@ -12,8 +12,15 @@
     --footer-second-text: rgba(255, 255, 255, 0.6);
 }
 body {
-        color: var(--main-color);
+    color: var(--main-color);
     font-family:  'Roboto', sans-serif;
+}
+.container {
+    width: 1200px;
+}
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 .link {
     text-decoration: none;
