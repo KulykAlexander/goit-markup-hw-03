@@ -66,9 +66,7 @@ body {
 
     color: var(--second-color);
 }
-.current {
-    color: var(--accent-color);
-}
+
 .visually-hidden {
     position: absolute;
     white-space: nowrap;
@@ -83,8 +81,10 @@ body {
 }
 
 /*HEADER*/
-.header {
-    
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     font-size: 14px;
     border-bottom: 1px solid #ECECEC;
     background-color: #FFFFFF;
@@ -96,7 +96,9 @@ body {
     line-height: 1.19;
 
     letter-spacing: 0.03em;
-    
+    padding: 24px 15px;
+    margin-right: 93px;
+
     color: #000000;    
 }
 .header-logo span {
@@ -112,10 +114,12 @@ body {
     
     display: flex;
     justify-content: flex-start;
+    align-items: center;
 }
 .main-nav {
     display: flex;
 }
+
 .main-nav-link {
     display: inline-block;
     font-weight: 500;
@@ -123,19 +127,29 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
 
+    margin-right: 50px;
+
     color: var(--main-color);
 }
 .main-nav-link:hover,
 .main-nav-link:focus {
     text-decoration: none;
 }
-
+.current {
+    color: var(--accent-color);
+}
+.conneсtion-nav {
+    display: flex;
+    justify-content: flex-end;
+}
 .conneсtion-nav-link {
-    display: inline-block;
+    
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    
+    margin-left: 50px;
 
     color: var(--second-color);
 }
