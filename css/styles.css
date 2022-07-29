@@ -94,7 +94,7 @@ body {
     font-family: 'Raleway', sans-serif;
     font-size: 26px;
     line-height: 1.19;
-
+    min-width: 145px;
     letter-spacing: 0.03em;
     padding: 24px 15px;
     margin-right: 93px;
@@ -278,13 +278,18 @@ body {
 
 /*footer*/
 .footer {
+    padding: 60px 15px;
     background-color: var(--footer-background-color);
 }
 .footer-logo {
+    display: block;
     font-family: 'Raleway', sans-serif;
     font-size: 26px;
     line-height: 1.19;
+    min-width: 145px;
 
+    
+    margin-bottom: 20px;
     letter-spacing: 0.03em;
     
     color: var(--footer-main-text);    
@@ -297,24 +302,35 @@ body {
 .footer-logo:focus {
     text-decoration: underline var(--accent-color);
 }
+.address-list {
+    display: block;
+    min-width: 231px;
+}
 .address {
+    display: inline-block;
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
-    
+    min-width: 231px;
+    margin-bottom: 9;
     letter-spacing: 0.03em;
 
     color: var(--footer-main-text);
+}
+.addres-item {
+    
 }
 .address:hover,
 .address:focus {
     text-decoration: none;
 }
 .footer-cont {
+    display: block;
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
-    
+    min-width: 231px;
+    margin-bottom: 9;
     letter-spacing: 0.03em;
 
     color: var(--footer-second-text);
