@@ -346,6 +346,10 @@ body {
 
 }
 /*portfolio buttons*/
+.buttons {
+    display: flex;
+    justify-content: center;
+}
 .example-btn {
     font-family: inherit;
     font-weight: 500;
