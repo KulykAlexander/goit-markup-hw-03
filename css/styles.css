@@ -210,11 +210,21 @@ body {
     
 }
 .specialty-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.specialty-item {
+    display: block;
 }
 .specialty-titel {
+    width: 270px;
     text-transform: uppercase;
+
+    margin-bottom: 10px;
 }
 .specialty-text {
+    width: 270px;
 }
 /*What do we do?*/
 .what-do {
