@@ -229,6 +229,15 @@ body {
 /*What do we do?*/
 .what-do {
 }
+.what-do-main-titel {
+    min-width: 366px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.what-do-list {
+    display: flex;
+    justify-content: space-between;
+}
 /*Our team*/
 .team {
     background-color: var(--team-background-color);
