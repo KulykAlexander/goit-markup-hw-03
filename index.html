@@ -10,7 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styles.css" />
     
   </head>
@@ -21,25 +21,25 @@
           <a href="index.html" lang="en" class="header-logo link"><span>Web</span>Studio</a>
 
           <ul class="main-nav list">
-            <li>
+            <li class="main-nav-item">
               <a href="index.html" class="main-nav-link link current">Студія</a>
             </li>
-            <li>
+            <li class="main-nav-item">
               <a href="portfolio.html" class="main-nav-link link">Портфоліо</a>
             </li>
-            <li><a href="#" class="main-nav-link link">Контакти</a></li>
+            <li class="main-nav-item"><a href="#" class="main-nav-link link">Контакти</a></li>
           </ul>
         </nav>
     
 
       
         <ul class="conneсtion-nav list">
-        <li>
+        <li class="conneсtion-nav-item">
           <a href="mailto:info@webstudio.com" class="conneсtion-nav-link link"
             >info@webstudio.com</a
           >
         </li>
-        <li>
+        <li class="conneсtion-nav-item">
           <a href="tel:+380961111111" class="conneсtion-nav-link link"
             >+38 096 111 11 11</a
           >
@@ -50,7 +50,7 @@
 
     <main>
       <!--Герой-->
-      <section class="hero">
+      <section class="section hero">
         <div class="container">
           <h1 class="hero-titel">Ефективні рішення для вашого бізнесу</h1>
           <button type="button" class="hero-btn btn">Замовити послугу</button>
@@ -149,8 +149,11 @@
               width="270"
               height="260"
             />
-            <h3 class="team-titel titel">Ігор Дем'яненко</h3>
-            <p lang="en" class="team-text text">Product Designer</p>
+            <div class="team-div">
+              <h3 class="team-titel titel">Ігор Дем'яненко</h3>
+              <p lang="en" class="team-text text">Product Designer</p>
+            </div>
+            
           </li>
           <li class="team-item">
             <img
@@ -159,8 +162,11 @@
               width="270"
               height="260"
             />
-            <h3 class="team-titel titel">Ольга Репіна</h3>
-            <p lang="en" class="team-text text">Frontend Developer</p>
+            <div class="team-div">
+              <h3 class="team-titel titel">Ольга Репіна</h3>
+              <p lang="en" class="team-text text">Frontend Developer</p>
+            </div>
+          
           </li>
           <li class="team-item">
             <img
@@ -169,8 +175,11 @@
               width="270"
               height="260"
             />
-            <h3 class="team-titel titel">Микола Тарасов</h3>
-            <p lang="en" class="team-text text">Marketing</p>
+            <div class="team-div">
+              <h3 class="team-titel titel">Микола Тарасов</h3>
+              <p lang="en" class="team-text text">Marketing</p>
+            </div>
+            
           </li>
           <li class="team-item">
             <img
@@ -179,8 +188,11 @@
               width="270"
               height="260"
             />
-            <h3 class="team-titel titel">Михайло Ермаков</h3>
-            <p lang="en" class="team-text text">UI Designer</p>
+            <div class="team-div">
+              <h3 class="team-titel titel">Михайло Ермаков</h3>
+              <p lang="en" class="team-text text">UI Designer</p>
+            </div>
+            
           </li>
         </ul>
         </div>
@@ -204,20 +216,19 @@
               >м. Київ, проспект Лесі Українки,26</a
             >
           </li>
-          <li class="addres-cont-item">
+          <li class="addres-item">
             <a href="mailto:info@webstudio.com" class="footer-cont link"
               >info@webstudio.com</a
             >
           </li>
-          <li class="addres-cont-item">
+          <li class="addres-item">
             <a href="tel:+380961111111" class="footer-cont link"
               >+38 096 111 11 11</a
             >
           </li>
         </ul>
       </address>
-      </div>
-      
+      </div>      
     </footer>
   </body>
 </html>
